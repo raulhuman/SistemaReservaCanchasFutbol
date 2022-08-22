@@ -13,6 +13,7 @@ import java.sql.ResultSet;
 
 public class ClienteDAO implements ICliente{
     
+    //Crear variables
     private Connection conn;
     private PreparedStatement ps;
     private ResultSet rs;
